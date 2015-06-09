@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Basement Orchestra</title>   
+
+<meta name="description" content="" /> 
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="_include/css/custom.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'YOUR ID']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+</head>
+
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">	
+
+	<div class="container">
+    	<div class="row">
+        	<div class="span12">
+            </div>
+        </div>
+    </div>   
+	
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Basement Orchestra">Basement Orchestra</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gigs">Gigs</a></li>
+                <li><a href="#play">Play</a></li>
+                <li><a href="#contact">Contact</a></li>
+				<li><a href="shortcodes.html" class="external">Shortcodes</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- About Us Section -->
+<div id="about" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">About us</h2>
+                    <h3 class="title-description"><br>We are an orchestra.<br>We sometimes play music written by living humans.<br>We think basements have great acoustics.<br>We clap when we want.</h3>
+                    
+                    <div class="page-description">
+                	</div>
+                
+                </div>    
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Players -->
+        <div class="row">
+        	<div class="span12">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Our players</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">Everyone</a></li>
+                        <li><a href="#filter" data-option-value=".upperstrings">upper strings</a></li>
+                        <li><a href="#filter" data-option-value=".lowerstrings">lower strings</a></li>
+                        <li><a href="#filter" data-option-value=".woodwind">woodwind</a></li>
+                        <li><a href="#filter" data-option-value=".brass">brass</a></li>
+                        <li><a href="#filter" data-option-value=".percussion">percussion</a></li>
+                        <li><a href="#filter" data-option-value=".team">team</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span12">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+                        
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 upperstrings">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Almaz" href="_include/img/players/almaz.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/almaz.jpg" alt="2nd violin">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 upperstrings">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Adam" href="_include/img/players/adam.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/adam.jpg" alt="Viola">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 upperstrings team">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Alix" href="_include/img/players/alix.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/alix.jpg" alt="1st violin, Minder of Money">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 woodwind">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Amy" href="_include/img/players/amy.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/amy.jpg" alt="Clarinet">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 upperstrings">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Anna" href="_include/img/players/anna_crofts.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/anna_crofts.jpg" alt="2nd violin">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 brass">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Chris" href="_include/img/players/chris_r.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/chris_r.jpg" alt="Trumpet">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 woodwind team">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Claire" href="_include/img/players/claire_samson.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/claire_samson.jpg" alt="Flute, Queen of Woodwind">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 upperstrings">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Dave" href="_include/img/players/dave.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/dave.jpg" alt="1st violin">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 upperstrings">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Emer" href="_include/img/players/emer.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/emer.jpg" alt="2nd violin">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 lowerstrings">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Geoff" href="_include/img/players/geoff.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/geoff.jpg" alt="Cello">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 team">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Guy" href="_include/img/players/guy.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/guy.jpg" alt="Conductor, Musical Director, Co-Founder">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 lowerstrings">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Jack" href="_include/img/players/jack.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/jack.jpg" alt="Double Bass">
+                            </li>
+                            <!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 lowerstrings">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="John" href="_include/img/players/john_g.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/john_g.jpg" alt="Double Bass">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 percussion">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Jon" href="_include/img/players/jon_f.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/jon_f.jpg" alt="Percussion">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 lowerstrings">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Kat" href="_include/img/players/kat_cello.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/kat_cello.jpg" alt="Cello">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 brass">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Mahalia" href="_include/img/players/mahalia.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/mahalia.jpg" alt="French Horn">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 woodwind">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Marianski" href="_include/img/players/marianski.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/marianski.jpg" alt="Bassoon">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 brass">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Rachel" href="_include/img/players/rachel_c.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/rachel_c.jpg" alt="French Horn">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 upperstrings">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Rhiannon" href="_include/img/players/rhiannon.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/rhiannon.jpg" alt="Viola">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 woodwind">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Sara" href="_include/img/players/sara.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/sara.jpg" alt="Clarinet">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 lowerstrings">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Sophie" href="_include/img/players/sophie.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/sophie.jpg" alt="Cello">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 brass">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Tom B" href="_include/img/players/tom_b.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/tom_b.jpg" alt="Trumpet">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 upperstrings team">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Tom M" href="_include/img/players/tom_m.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/tom_m.jpg" alt="Leader, King of Upper Strings">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 upperstrings">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Tom W" href="_include/img/players/tom_w.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/players/tom_w.jpg" alt="2nd violin">
+                            </li>
+                            <!-- End Item Project -->
+
+
+                        </ul>
+                    </section>
+                    
+            	</div>
+            </div>
+        </div>
+        <!-- End Players -->
+    </div>
+</div>
+<!-- End About Us Section -->
+
+<!-- Gigs Section -->
+<div id="gigs" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Gigs</h2>
+                <h3 class="title-description">People, places, music</h3>
+                
+                <div class="page-description">
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Giglist -->
+    <div class="row">
+    	
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Rough Trade Records</span>
+                </div>
+                <img src="_include/img/gigs/rt1.jpg">
+            </div>
+            <h3 class="profile-name">Book Slam Annual Vol II: The Launch</h3>
+            <p class="profile-description"><em>28 Nov 2012</em><br>We joined Jesse Armstrong, Peter Serafinowicz, Salena Godden and a Rough Trade-ful of lovely book-lovers for the launch of Book Slam's second annual of exclusive short stories, <a href="link: http://www.bookslam.com/shop/">'Too Much Too Young'</a>.</p>
+
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">The Round Chapel, Hackney</span>
+                </div>
+                <img src="_include/img/gigs/feast.jpg">
+            </div>
+            <h3 class="profile-name">Feast</h3>
+            <p class="profile-description"><em>20 April 2013</em><br>We hung out with Will Self, Andrew Maxwell and a magical chihuahua for a bit, then we treated an audience feasting on gorgeous food to some equally gorgeous music.</p>
+            	
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">G.O.O.D. Inc H.Q.</span>
+                </div>
+                <img src="_include/img/gigs/brazil.jpg">
+            </div>
+            <h3 class="profile-name">Secret Cinema presents... 'Brazil'</h3>
+            <p class="profile-description"><em>April-June 2013</em><br>Secret Cinema invited its audience to join the ranks of G.O.O.D. Inc employees and explore a 13-storey recreation of Terry Gilliam's satirical dystopia. Basement Orchestra provided unseasonal festive cheer, energy to corporate wellbeing sessions and a moment of sadness. We made the <a href="http://www.croydonguardian.co.uk/news/localnews/10507004.Thousands_attend_Secret_Cinema_events_in_Croydon/">Croydon Guardian.</a></p>
+            
+        </div>
+        <!-- End Profile -->
+
+    </div>
+    <div class="row">
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Bethnal Green Working Men's Club</span>
+                </div>
+                <img src="_include/img/gigs/bgwmc.jpg">
+            </div>
+            <h3 class="profile-name">So Last Century!</h3>
+            <p class="profile-description"><em>17 No 2014</em><br>All the best things of the 20th Century: French impressionism, rendering life and its smallest tragedies through music; big bands droppin killer swing to dancefloors packed with lovers and criminals; and the foot-tapping, heart-breaking, groove-making sensations of the squelchiest of funk. This was brought to you by Basement Orchestra, Duke Street Big Band and Black Forrest Ghetto.</p>
+            
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Utopia Airlines Terminal, Hackney</span>
+                </div>
+                <img src="_include/img/gigs/utopia.jpg">
+            </div>
+            <h3 class="profile-name">Future Shorts - 10th Anniversary Party</h3>
+            <p class="profile-description"><em>30 Nov 2013</em><br>To celebrate the tenth year of Future Shorts, now a legend of cinema's antiestablishment, Utopia Airlines took passengers on a tour of favourite short films from the past decade. We took our instruments aboard and made music at 30,000 feet.</p>
+            
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Central Foundation Boys' School</span>
+                </div>
+                <img src="_include/img/gigs/feast.jpg">
+            </div>
+            <h3 class="profile-name">School Supper Party</h3>
+            <p class="profile-description"><em>10 May 2014</em><br>Culture, music, food, and tap dance, in a school canteen much fancier than we remember.</p>
+            
+        </div>
+        <!-- End Profile -->
+
+    </div>
+    <div class="row">
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">The Garden</span>
+                </div>
+                <img src="_include/img/gigs/sgp.jpg">
+            </div>
+            <h3 class="profile-name">Secret Garden Party</h3>
+            <p class="profile-description"><em>July 2014</em></p>
+            
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">The Tin Tabernacle</span>
+                </div>
+                <img src="_include/img/gigs/tab.jpg">
+            </div>
+            <h3 class="profile-name">Wood, Tin, Brass & String</h3>
+            <p class="profile-description"><em>17 Jan 2015</em><br>We played to a sold-out crowd at the Tin Tabernacle - built by Scottish railway workers, bisieged with bombs, home to the actual altar from the film 'Beckett' and now basecamp of the local Sea Cadets and their formidable collection of rope. It was a chilly evening to put your hands around something or someone warm, settle down in between the oars or behind the captain's wheel and go on a voyage with us.</p>
+            
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Wherever you are...</span>
+                </div>
+                <img src="_include/img/profile/profile-03.jpg">
+            </div>
+            <h3 class="profile-name">The music we've played</h3>
+            <iframe src="https://open.spotify.com/user/1230950093/playlist/4hTnXHS2xm2iV4Ugxr3HE6"  frameborder="0" height=300px width=100% allowtransparency="true"></iframe>
+            
+        </div>
+
+        <!-- End Profile -->
+    
+
+    </div>
+    <!-- End Giglist -->
+</div>
+
+<!-- Big Blockquote -->
+<div class="big-quote page">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <p>beautiful music in unexpected places</p>
+                <span class="font-icon-blockquote"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Big Blockquote -->
+
+</div>
+<!-- End Gigs Section -->
+
+<!-- Play Section -->
+<div id="play" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Play</h2>
+                <h3 class="title-description">We need you.</h3>
+                
+                <div class="page-description">
+                    <p>We are an amateur orchestra of musicians looking for something a bit different. All our players have quite a bit of playing experience, in all kinds of different orchestras, bands and miscellaneous ensembles. We play music. We have fun. If you'd like to join us, select your section...</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Signup Boxes -->
+    <div class="row">
+    	<div class="span2.4">
+        	<div class="services-box">
+        		<img class="span2" src="_include/img/section_icons/violin.svg" height=160px alt="upper strings"></img>
+        	</div>
+        </div>
+        
+        <div class="span2.4">
+        	<div class="services-box">
+        		<img class="span2" src="_include/img/section_icons/cello.svg" height=160px alt="lower strings"></img>
+        	</div>
+        </div>
+        
+        <div class="span2.4">
+        	<div class="services-box">
+        		<img class="span2" src="_include/img/section_icons/clarinet.svg" height=160px alt="woodwind"></img>
+        	</div>
+        </div>
+
+        <div class="span2.4">
+            <div class="services-box">
+                <img class="span2" src="_include/img/section_icons/trumpet.svg" height=160px alt="brass"></img>
+            </div>
+        </div>
+
+        <div class="span2.4">
+            <div class="services-box">
+                <img class="span2" src="_include/img/section_icons/drum.svg" height=160px alt="percussion"></img>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+
+    <!-- End Signup Boxes -->
+    
+</div>
+</div>
+<!-- End Play Section -->
+
+<!-- Google Map 
+<div id="map-area">
+    <div class="map" id="map_1" data-mapLat="51.911475" data-mapLon="-1.461815" data-mapZoom="11" data-mapTitle="Your Title"></div>
+</div>
+ End Google Map -->
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Get in Touch</h2>
+                <h3 class="title-description">We are stronger together.</h3>
+                
+                <div class="page-description">
+                    <p>We love making music, experiences and happenings in collaboration with other people and groups who share our passion for the unexpected. If you're intersted in working with us, or would like us to bring some music to an event you're creating, don't be shy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+    	<div class="span9">
+        
+        	<form id="contact-form" class="contact-form" action="#">
+            	<p class="contact-name">
+            		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                </p>
+                
+                <div id="response">
+                
+                </div>
+            </form>
+         
+        </div>
+        
+        <div class="span3">
+        	<div class="contact-details">
+                <ul>
+                    <li><a href="#">firebird@basementorchestra.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Services Form -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+<!-- Twitter Feed -->
+<div id="twitter-feed" class="page-alternate">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <div class="follow">
+                    <a href="https://twitter.com/Basement_London" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
+                </div>
+                    
+                <div id="ticker" class="query"> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Twitter Feed -->
+
+<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+                        <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
+                        <li><a href="http://forrst.com/people/Bluxart" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
+                        <li><a href="http://www.behance.net/alessioatzeni" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
+                        <li><a href="https://www.facebook.com/Bluxart" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                        <li><a href="http://www.linkedin.com/in/alessioatzeni" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                        <li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
+                        <li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2013 Chakra. <a href="http://themes.alessioatzeni.com/html/chakra/" title="Chakra | Responsive One Page Template">Chakra Template</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a></p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> <!-- Google Map API -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
+</html>
