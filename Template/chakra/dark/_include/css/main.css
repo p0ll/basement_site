@@ -894,7 +894,8 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .big-quote {
-	text-align: center;	
+	text-align: center;
+	/*background:#26292E;	*/
 }
 
 .big-quote p {
@@ -909,7 +910,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 /* ==================================================
-   Service Section
+   Signup Section
 ================================================== */
 
 .services-box {
