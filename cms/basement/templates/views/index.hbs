@@ -1,0 +1,610 @@
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Basement Orchestra</title>   
+
+<meta name="description" content="" /> 
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="styles/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="styles/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="styles/supersized.css" rel="stylesheet">
+<link href="styles/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="styles/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="styles/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="styles/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="styles/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="styles/responsive.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="styles/custom.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'YOUR ID']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+</head>
+
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+    <div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">  
+
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+            </div>
+        </div>
+    </div>   
+    
+    <div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#about"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+        <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+            <a id="goUp" href="#home-slider" title="Basement Orchestra">Basement Orchestra</a>
+        </div>
+        
+        <nav id="menu">
+            <ul id="menu-nav">
+                <li class="current"><a href="#home-slider">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gigs">Gigs</a></li>
+                <li><a href="#play">Play</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- About Us Section -->
+<div id="about" class="page">
+    <div class="container">
+        <!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">About us</h2>
+                    <h3 class="title-description"><br>We are an orchestra.<br>We sometimes play music written by living humans.<br>We think basements have great acoustics.<br>We clap when we want.</h3>
+                    
+                    <div class="page-description">
+                    </div>
+                
+                </div>    
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Players -->
+        <div class="row">
+            <div class="span12">
+                <!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                        <li class="type-work">Our players</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">Everyone</a></li>
+                        <li><a href="#filter" data-option-value=".upperstrings">upper strings</a></li>
+                        <li><a href="#filter" data-option-value=".lowerstrings">lower strings</a></li>
+                        <li><a href="#filter" data-option-value=".woodwind">woodwind</a></li>
+                        <li><a href="#filter" data-option-value=".brass">brass</a></li>
+                        <li><a href="#filter" data-option-value=".percussion">percussion</a></li>
+                        <li><a href="#filter" data-option-value=".team">team</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span12">
+                <div class="row">
+                    <section id="projects">
+                        <ul id="thumbs">
+
+                            {{#if players}}
+                            {{#each players}}
+                        
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 {{sectionsList sections separator=' ' }}">
+
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="{{name.first}}" href="{{image.url}}">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-search"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="{{image.url}}" alt="{{instrument}}">
+                            </li>
+                            <!-- End Item Project -->
+                            {{/each}}
+                            {{/if}}
+
+                        </ul>
+                    </section>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- End Players -->
+    </div>
+</div>
+<!-- End About Us Section -->
+
+<!-- Gigs Section -->
+<div id="gigs" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Gigs</h2>
+                <h3 class="title-description">People, places, music</h3>
+                
+                <div class="page-description">
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Giglist -->
+    <div class="row">
+        
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Rough Trade Records</span>
+                </div>
+                <img src="images/gigs/rt1_compressed.jpg">
+            </div>
+            <h3 class="profile-name">Book Slam Annual Vol II: The Launch</h3>
+            <p class="profile-description"><em>28 Nov 2012</em><br>We joined Jesse Armstrong, Peter Serafinowicz, Salena Godden and a Rough Trade-ful of lovely book-lovers for the launch of Book Slam's second annual of exclusive short stories, <a href="link: http://www.bookslam.com/shop/">'Too Much Too Young'</a>.</p>
+
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">The Round Chapel, Hackney</span>
+                </div>
+                <img src="images/gigs/feast_compressed.jpg">
+            </div>
+            <h3 class="profile-name">Feast</h3>
+            <p class="profile-description"><em>20 April 2013</em><br>We hung out with Will Self, Andrew Maxwell and a magical chihuahua for a bit, then we treated an audience feasting on gorgeous food to some equally gorgeous music.</p>
+                
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">G.O.O.D. Inc H.Q.</span>
+                </div>
+                <img src="images/gigs/brazil_compressed.jpg">
+            </div>
+            <h3 class="profile-name">Secret Cinema presents... 'Brazil'</h3>
+            <p class="profile-description"><em>April-June 2013</em><br>Secret Cinema invited its audience to join the ranks of G.O.O.D. Inc employees and explore a 13-storey recreation of Terry Gilliam's satirical dystopia. Basement Orchestra provided unseasonal festive cheer, energy to corporate wellbeing sessions and a moment of sadness. We made the <a href="http://www.croydonguardian.co.uk/news/localnews/10507004.Thousands_attend_Secret_Cinema_events_in_Croydon/">Croydon Guardian.</a></p>
+            
+        </div>
+        <!-- End Profile -->
+
+    </div>
+    <div class="row">
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Bethnal Green Working Men's Club</span>
+                </div>
+                <img src="images/gigs/bgwmc_compressed.jpg">
+            </div>
+            <h3 class="profile-name">So Last Century!</h3>
+            <p class="profile-description"><em>17 No 2014</em><br>All the best things of the 20th Century: French impressionism, rendering life's smallest tragedies through music; big bands droppin killer swingtime beats to dancefloors packed with lovers and criminals; and the foot-tapping, heart-breaking, groove-making sensations of the squelchiest of funk. This all brought to you by Basement Orchestra, Duke Street Big Band and Black Forest Ghetto.</p>
+            
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Utopia Airlines Terminal, Hackney</span>
+                </div>
+                <img src="images/gigs/utopia_compressed.jpg">
+            </div>
+            <h3 class="profile-name">Future Shorts - 10th Anniversary Party</h3>
+            <p class="profile-description"><em>30 Nov 2013</em><br>To celebrate the tenth year of Future Shorts, now a legend of cinema's antiestablishment, Utopia Airlines took passengers on a tour of favourite short films from the past decade. We took our instruments aboard and made music at 30,000 feet.</p>
+            
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Central Foundation Boys' School</span>
+                </div>
+                <img src="images/gigs/feast_compressed.jpg">
+            </div>
+            <h3 class="profile-name">School Supper Party</h3>
+            <p class="profile-description"><em>10 May 2014</em><br>Culture, music, food, and tap dance, in a school canteen much fancier than we remember.</p>
+            
+        </div>
+        <!-- End Profile -->
+
+    </div>
+    <div class="row">
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">The Garden</span>
+                </div>
+                <img src="images/gigs/sgp_compressed.jpg">
+            </div>
+            <h3 class="profile-name">Secret Garden Party</h3>
+            <p class="profile-description"><em>July 2014</em><br>Nothing says 'summer magic' nor 'wreckless abandon' quite like a glittery chamber orchestra playing Debussy. So when the Head Gardener invited us to join the fun, who were we to say no?</p>
+            
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">The Tin Tabernacle</span>
+                </div>
+                <img src="images/gigs/tab_compressed.jpg">
+            </div>
+            <h3 class="profile-name">Wood, Tin, Brass & String</h3>
+            <p class="profile-description"><em>17 Jan 2015</em><br>We played to a sold-out crowd at the Tin Tabernacle - built by Scottish railway workers, bisieged with bombs, home to the actual altar from the film 'Beckett' and now basecamp of the local Sea Cadets and their formidable collection of rope. It was a chilly evening to put your hands around something or someone warm, settle down in between the oars and go on a voyage with us.</p>
+            
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Wherever you are...</span>
+                </div>
+                <img src="images/profile/profile-03.jpg">
+            </div>
+            <h3 class="profile-name">The music we've played</h3>
+            <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Abasementorchestra%3Aplaylist%3A1lSzr63vp0BhxhdqDz1SDt" width=100% height=300px frameborder="0" allowtransparency="true"></iframe>
+            
+        </div>
+
+        <!-- End Profile -->
+    
+
+    </div>
+    <!-- End Giglist -->
+</div>
+
+<!-- Big Blockquote -->
+<div class="big-quote page">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <p>beautiful music in unexpected places</p>
+                <span class="font-icon-blockquote"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Big Blockquote -->
+
+</div>
+<!-- End Gigs Section -->
+
+<!-- Play Section -->
+<div id="play" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Play</h2>
+                <h3 class="title-description">We need you.</h3>
+                
+                <div class="page-description">
+                    <p>We are an amateur orchestra of musicians looking for something a bit different. All our players have quite a bit of playing experience, in all kinds of different orchestras, bands and miscellaneous ensembles. We play music. We have fun. If you'd like to join us, select your section...</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Signup Boxes -->
+    <div class="span1">
+    </div>
+
+    <div class="span2">
+        <div class="image-wrap">
+            <a href="http://goo.gl/forms/T8k1V6iUSk" target="_blank">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Upper Strings</span>
+                </div>
+                <img src="images/section_icons/violin.svg">
+            </a>
+        </div>         
+    </div>
+
+    <div class="span2">
+        <div class="image-wrap">
+            <a href="http://goo.gl/forms/tG9hloZ9pj" target="_blank">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Lower Strings</span>
+                </div>
+                <img src="images/section_icons/cello.svg">
+            </a>
+        </div>         
+    </div>
+
+    <div class="span2">
+        <div class="image-wrap">
+            <a href="http://goo.gl/forms/pfPg6Gmrke" target="_blank">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">woodwind</span>
+                </div>
+                <img src="images/section_icons/clarinet.svg">
+            </a>
+        </div>         
+    </div>
+
+    <div class="span2">
+        <div class="image-wrap">
+            <a href="https://docs.google.com/forms/d/1jCd4po65xdSDhkJDqjKRACugYNtG3___0ZnxSMR2m1M/viewform?usp=send_form" target="_blank">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Brass</span>
+                </div>
+                <img src="images/section_icons/trumpet.svg">
+            </a>
+        </div>         
+    </div>
+
+    <div class="span2">
+        <div class="image-wrap">
+            <a href="mailto:firebird@basementorchestra.com?Subject=I%20play%20percussion" target="_top">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Percussion</span>
+                </div>
+                <img src="images/section_icons/drum.svg">
+            </a>
+        </div>         
+    </div>
+
+    <div class="span1">
+    </div>
+
+    <!-- End Signup Boxes -->
+
+</div>
+
+<br>
+    
+</div>
+</div>
+<!-- End Play Section -->
+
+<!-- Google Map 
+<div id="map-area">
+    <div class="map" id="map_1" data-mapLat="51.911475" data-mapLon="-1.461815" data-mapZoom="11" data-mapTitle="Your Title"></div>
+</div>
+ End Google Map -->
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Get in Touch</h2>
+                <h3 class="title-description">We are stronger together.</h3>
+                
+                <div class="page-description">
+                    <p>We love making music, experiences and happenings in collaboration with other people and groups who share our passion for the unexpected. If you're intersted in working with us, or would like us to bring some music to an event you're creating, don't be shy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+        <div class="span9">
+        
+            <form id="contact-form" class="contact-form" action="#">
+                <p class="contact-name">
+                    <input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                    <input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                    <textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                    <a id="contact-submit" class="submit" href="#">Send It</a>
+                </p>
+                
+                <div id="response">
+                
+                </div>
+            </form>
+         
+        </div>
+        
+        <div class="span3">
+            <div class="contact-details">
+                <ul>
+                    <li>For when you prefer email:</li>
+                    <li><a href="#">firebird@basementorchestra.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Services Form -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+<!-- Twitter Feed
+<div id="twitter-feed" class="page-alternate">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="follow">
+                    <a href="https://twitter.com/Basement_London" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
+                </div>
+                    
+                <div id="ticker" class="query"> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Twitter Feed -->
+
+<!-- Socialize -->
+<div id="social-area" class="page">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+                        <li><a href="https://twitter.com/Basement_London" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="https://www.facebook.com/pages/Basement-Orchestra/343375519019018?ref=bookmarks" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
+
+<!-- Footer 
+<footer>
+    <p class="credits">&copy;2013 Chakra. <a href="http://themes.alessioatzeni.com/html/chakra/" title="Chakra | Responsive One Page Template">Chakra Template</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a></p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+    <i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="js/jquery/jquery-2.1.4.min.js"></script> <!-- jQuery Core -->
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="js/waypoints.js"></script> <!-- WayPoints -->
+<script src="js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
