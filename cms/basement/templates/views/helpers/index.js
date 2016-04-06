@@ -121,6 +121,9 @@ module.exports = function() {
 		return new hbs.SafeString(output);
 	};
 
+	// ### Sections Helper
+	// Lists all the sections in a string separated by the separator
+
 	_helpers.sectionsList = function(sections, options) {
 		var separator = _.isString(options.hash.separator) ? options.hash.separator : ' ',
 			output = '';
@@ -356,6 +359,28 @@ module.exports = function() {
 	
 	_helpers.underscoreFormat = function (obj, underscoreMethod) {
 		return obj._[underscoreMethod].format();
+	}
+
+	//  ### Show new row
+	//	return true if the index if multiple of 3(or set up number of items per row) or 0
+	
+	_helpers.ifShowNewRow = function (context, options) {
+		// if we dont pass in a context and just kwargs
+		// then `this` refers to our default scope block and kwargs
+		// are stored in context.hash
+		if (!options && context.hasOwnProperty('hash')) {
+			// strategy is to place context kwargs into options
+			options = context;
+			// bind our default inherited scope into context
+			context = this;
+		}
+
+		var output = '';
+		if(( context % 3 == 0 ) || (context == 0)){
+			return options.fn(this);
+		}else{
+			return '';
+		}
 	}
 	
 	return _helpers;

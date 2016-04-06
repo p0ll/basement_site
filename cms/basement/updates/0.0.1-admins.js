@@ -18,6 +18,20 @@ exports.create = {
 		{'name' : 'lowerstrings'},
 		{'name' : 'percussion'},
 		{'name' : 'team'}
+	], 
+	Gig: [
+		{'title' : 'Rough Trade Records', 
+		'profileName' :'Book Slam Annual Vol II: The Launch',
+		'description' : 'We joined Jesse Armstrong, Peter Serafinowicz, Salena Godden and a Rough Trade-ful of lovely book-lovers for the launch of Book Slams second annual of exclusive short storiesToo Much Too Young'
+		},
+		{'title' : 'The Round Chapel, Hackney', 
+		'profileName' :'Feast',
+		'description' : 'We hung out with Will Self, Andrew Maxwell and a magical chihuahua for a bit, then we treated an audience feasting on gorgeous food to some equally gorgeous music.'
+		},
+		{'title' : 'G.O.O.D. Inc H.Q.', 
+		'profileName' :'Secret Cinema presents... Brazil',
+		'description' : 'Secret Cinema invited its audience to join the ranks of G.O.O.D. Inc employees and explore a 13-storey recreation of Terry Gilliams satirical dystopia. Basement Orchestra provided unseasonal festive cheer, energy to corporate wellbeing sessions and a moment of sadness. We made the Croydon Guardian.'
+		}
 	]
 };
 

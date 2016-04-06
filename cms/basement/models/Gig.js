@@ -7,17 +7,17 @@ var keystone = require('keystone'),
  */
 
 var Gig= new keystone.List('Gig', {
-    autokey: { from: 'name', path: 'key', unique: true }
+    autokey: { from: 'title', path: 'key', unique: true }
 });
 
 Gig.add({
-    name: { type: String, required: true },
+    title: { type: String, required: true, default: 'Title' },
+    profileName : { type: String, required: true, default: 'ProfileName' },
     description: {type: Types.Html, wysiwyg: true, height: 400 },
     date: { type: Date, default: Date.now },
-    heroImage: { type: Types.CloudinaryImage },
-    images: { type: Types.CloudinaryImages }
+    image: { type: Types.CloudinaryImage }
 });
 
-Gig.defaultColumns = 'name, date';
+Gig.defaultColumns = 'title, profileName, date, description, image';
 
 Gig.register();
