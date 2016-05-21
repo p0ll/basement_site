@@ -11,13 +11,13 @@ var Gig= new keystone.List('Gig', {
 });
 
 Gig.add({
-    title: { type: String, required: true, default: 'Title' },
-    profileName : { type: String, required: true, default: 'ProfileName' },
+    title: { type: String, required: true, default: 'Title', required: true },
+    location : { type: String, required: true, default: 'Location', required: true },
     description: {type: Types.Html, wysiwyg: true, height: 400 },
-    date: { type: Date, default: Date.now },
+    date: { type: Date, default: Date.now},
     image: { type: Types.CloudinaryImage }
 });
 
-Gig.defaultColumns = 'title, profileName, date, description, image';
+Gig.defaultColumns = 'title, location, date, description, image';
 
 Gig.register();
