@@ -51,6 +51,19 @@ keystone.set('locals', {
 	editable: keystone.content.editable
 });
 
+keystone.set('cloudinary config', { cloud_name: 'dfy6lmw7j', api_key: '223664585877129', api_secret: 'qWfr3J78W6eacJhtk74HNXT90pE' });
+// or
+keystone.set('cloudinary config', 'CLOUDINARY_URL=cloudinary://223664585877129:qWfr3J78W6eacJhtk74HNXT90pE@dfy6lmw7j' );
+ 
+// optional, will prefix all built-in tags with 'keystone_'
+keystone.set('cloudinary prefix', 'keystone');
+ 
+// optional, will prefix each image public_id with [{prefix}]/{list.path}/{field.path}/
+keystone.set('cloudinary folders', true);
+ 
+// optional, will force cloudinary to serve images over https
+keystone.set('cloudinary secure', true);
+
 // Load your project's Routes
 
 keystone.set('routes', require('./routes'));
